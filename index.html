@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/914db48e6f.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gradient1: '#e942ff',
+                        gradient2: '#8838ff',
+                        clifford: '#d1bdf0',
+                        chatbg: '#d2a9db',
+                        mychatbg: '#ded5eb',
+                        sendbtn: '#3e2753',
+                        chatleft: '#9241c8',
+                        chatright: '#6e5d7e'
+                    },
+                    fontFamily: {
+                        myfont: '"Rubik", "sans-serif"'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-myfont" style="background-color: #F5F3F8;">
+    <main>
+        <section class="flex flex-col items-center sm:flex-row sm:justify-between sm:pt-20 sm:items-center">
+            <div class="sm:w-7/12 flex justify-center mt-10">
+                <div class="bg-white border-white border-8 rounded-3xl max-w-xs drop-shadow-2xl">
+                    <div
+                        class="p-4 pt-0 bg-gradient-to-r from-gradient2 to-gradient1 rounded-2xl rounded-br rounded-bl">
+                        <div class="mb-4 flex justify-center">
+                            <div class="w-3/4 bg-white rounded-3xl relative bottom-2">
+                                <h1 class="text-white">hi</h1>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-less-than text-white text-xs relative top-1 right-1"></i>
+                                <img src="images/avatar.jpg" alt=""
+                                    class="w-1/6 rounded-full border-2 mx-1 border-white">
+                                <div class="flex flex-col justify-between">
+                                    <h1 class="text-xl text-white font-bold">Samuel Green</h1>
+                                    <p class="text-xs text-white">Available to walk</p>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-ellipsis-vertical text-white relative top-1 right-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-clifford px-1 py-2 flex flex-col rounded-b-2xl">
+                        <div class="flex flex-col items-start pr-8 p-3">
+                            <div class="w-3/4 pr-3 p-2 bg-chatbg rounded-3xl mb-2">
+                                <h1 class="text-xs text-chatleft font-semibold p-1">
+                                    Thats great sounds good. I'd be
+                                    happy to discuss more
+                                </h1>
+                            </div>
+                            <div class="w-3/4 pr-3 p-2 bg-chatbg rounded-3xl">
+                                <h1 class="text-xs text-chatleft font-semibold p-1">
+                                    Could you send over some pictures of your dogs. please?
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-end p-2">
+                            <div class="flex justify-end">
+                                <img src="images/dog-image-1.jpg" alt="" width="64px" class="rounded-xl">
+                                <img src="images/dog-image-2.jpg" alt="" width="64px" class="rounded-xl mx-1">
+                                <img src="images/dog-image-3.jpg" alt="" width="64px" class="rounded-xl">
+                            </div>
+                            <div class="w-3/4 pl-4 p-2 bg-mychatbg rounded-3xl my-2">
+                                <h1 class="text-xs text-chatright">
+                                    Here are a few pictures. She's a happy girl
+                                </h1>
+                            </div>
+                            <div class="w-3/4 pl-4 p-2 bg-mychatbg rounded-3xl">
+                                <h1 class="text-xs text-chatright">
+                                    Can you make it?
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-start pr-3 p-3">
+                            <div class="w-3/4 pr-3 p-2 bg-chatbg rounded-3xl mb-2">
+                                <h1 class="text-xs text-chatleft font-semibold p-1">
+                                    She looks so happy! The time we discussed works. How long shall I take her out for?
+                                </h1>
+                            </div>
+                            <div
+                                class="w-3/4 pr-3 p-2 bg-gradient-to-r from-gradient1 to-gradient2 rounded-2xl mb-2 flex justify-between rounded-bl-lg">
+                                <div class="w-3/5 flex justify-evenly items-center">
+                                    <i class="fa-solid fa-circle text-gradient1 border border-white rounded-full"></i>
+                                    <p style="font-size: 10px;" class="text-white font-semibold">Half hour Walk</p>
+                                </div>
+                                <div class="w-2/5 flex justify-center">
+                                    <h1 class="text-white font-bold">$29</h1>
+                                </div>
+                            </div>
+                            <div
+                                class="w-3/4 pr-3 p-2 bg-gradient-to-r from-gradient1 to-gradient2 rounded-2xl mb-2 flex justify-between rounded-bl-lg ">
+                                <div class="w-3/5 flex justify-evenly items-center">
+                                    <i class="fa-solid fa-circle text-gradient1 border border-white rounded-full"></i>
+                                    <p style="font-size: 10px;" class="text-white font-semibold">One Hour Walk</p>
+                                </div>
+                                <div class="w-2/5 flex justify-center">
+                                    <h1 class="text-white font-bold">$49</h1>
+                                </div>
+                            </div>
+                            <div class="w-full bg-white rounded-3xl flex justify-between pl-6 items-center">
+                                <p class="text-xs py-3 font-light text-gray-400">Type a message...</p>
+                                <i class="fa-solid fa-greater-than relative right-2 text-white bg-sendbtn p-2 rounded-full"
+                                    style="font-size: 8px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sm:w-5/12 mt-10 px-6 sm:pr-8">
+                <h1 class="text-5xl mb-4 text-center sm:text-left" style="color: #473A58;">Simple Booking</h1>
+                <p class="text-gray-700 text-center sm:text-left">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Recusandae
+                    distinctio
+                    dolores sunt velit,
+                    animi nulla quidem minima dolorem cum blanditiis tempora deleniti consectetur perferendis magnam,
+                    aliquam eius. Inventore, quibusdam non odio accusamus laudantium temporibus, dicta accusantium sit
+                    at laboriosam iste.</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
